@@ -6,24 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>GAMCH</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
+    <link rel="stylesheet" href="assets/css/aos.min.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark-Multi-Column-icons.css">
     <link rel="stylesheet" href="assets/css/Hero-Carousel-images.css">
     <link rel="stylesheet" href="assets/css/Nice-breadcrumb.css">
+    <link rel="stylesheet" href="assets/css/sticky-dark-top-nav-with-dropdown.css">
 </head>
 
-<body style="background: var(--bs-danger);">
-    <ol class="breadcrumb">
-        <li class="home"><a href="#"><i class="fas fa-home"></i><span>Home</span></a></li>
-        <li><a href="#">Category</a></li>
-        <li><a href="#">Sub-category</a></li>
-        <li><a href="#">Sub-category</a></li>
-        <li><a href="#">Sub-category</a></li>
-        <li class="active"><a href="#">Article</a></li>
-    </ol>
+<body style="background: #222222;">
+    <nav class="navbar navbar-expand-md navbar-fixed-top navigation-clean-button navbar-light" style="background: rgb(34, 34, 34);position: static;">
+        <div class="container">
+            <div><a class="navbar-brand" href="#"><span><img src="assets/img/Escudo%20Challapata%20Blanco.webp">G.A.M.CH.</span> </a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button></div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav nav-right" style="position: relative;">
+                    <li class="nav-item"><a class="nav-link active" href="index.html" style="color: #ffffff;">Inicio</a></li>
+                    <li class="nav-item dropdown show" style="color: #ffffff;position: relative;"><a class="dropdown-toggle nav-link" aria-expanded="true" data-bs-toggle="dropdown" data-aos="fade" href="#" style="color: #ffffff;">Servicios</a>
+                        <div class="dropdown-menu show" data-bs-popper="none" style="color: #ffffff;"><a class="dropdown-item" href="services.html" style="color: #ffffff;">Price Packages</a><a class="dropdown-item" href="#" style="color: #ffffff;">Order Services</a><a class="dropdown-item" href="#" style="color: #ffffff;">Custom Request</a><a class="dropdown-item" href="#">Menu Item</a></div>
+                    </li>
+                    <li class="nav-item" style="color: #ffffff;"><a class="nav-link" href="about.html" style="color: #ffffff;">about </a></li>
+                    <li class="nav-item" style="color: #ffffff;"><a class="nav-link" href="faq.html" style="color: #ffffff;">faq </a></li>
+                    <li class="nav-item" style="color: #ffffff;"><a class="nav-link" href="contact.html" style="color: #ffffff;">contact </a></li>
+                </ul>
+                <p class="ms-auto navbar-text actions"><a class="login" href="login.html">Log In</a> <a class="btn btn-light action-button" role="button" href="signup.html">Sign Up</a></p>
+            </div>
+        </div>
+    </nav>
     <div class="carousel slide" data-bs-ride="carousel" id="carousel-1" style="height: 600px;">
         <div class="carousel-inner h-100">
-            <div class="carousel-item active h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" alt="Slide Image" style="z-index: -1;">
+            <div class="carousel-item active h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="assets/img/IMG_20231230_101747.webp" alt="Slide Image" style="z-index: -1;">
+                <div class="container d-flex flex-column justify-content-center h-100">
+                    <div class="row">
+                        <div class="col-md-6 col-xl-4 offset-md-2" style="color: rgb(255,255,255);">
+                            <div style="max-width: 350px;">
+                                <h1 class="text-uppercase fw-bold">Biben dum<br>fringi dictum, augue purus</h1>
+                                <p class="my-3">Tincidunt laoreet leo, adipiscing taciti tempor. Primis senectus sapien, risus donec ad fusce augue interdum.</p><a class="btn btn-primary btn-lg me-2" role="button" href="#">Button</a><a class="btn btn-outline-primary btn-lg" role="button" href="#">Button</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="assets/img/IMG_20240221_121317.webp" alt="Slide Image" style="z-index: -1;">
                 <div class="container d-flex flex-column justify-content-center h-100">
                     <div class="row">
                         <div class="col-md-6 col-xl-4 offset-md-2">
@@ -35,19 +59,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" alt="Slide Image" style="z-index: -1;">
-                <div class="container d-flex flex-column justify-content-center h-100">
-                    <div class="row">
-                        <div class="col-md-6 col-xl-4 offset-md-2">
-                            <div style="max-width: 350px;">
-                                <h1 class="text-uppercase fw-bold">Biben dum<br>fringi dictum, augue purus</h1>
-                                <p class="my-3">Tincidunt laoreet leo, adipiscing taciti tempor. Primis senectus sapien, risus donec ad fusce augue interdum.</p><a class="btn btn-primary btn-lg me-2" role="button" href="#">Button</a><a class="btn btn-outline-primary btn-lg" role="button" href="#">Button</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" alt="Slide Image" style="z-index: -1;">
+            <div class="carousel-item h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="assets/img/IMG_20240310_090533.webp" alt="Slide Image" style="z-index: -1;">
                 <div class="container d-flex flex-column justify-content-center h-100">
                     <div class="row">
                         <div class="col-md-6 col-xl-4 offset-md-2">
@@ -171,6 +183,8 @@
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/aos.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
 </body>
 
 </html>
