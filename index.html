@@ -6,36 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>GAMCH</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
-    <link rel="stylesheet" href="assets/css/aos.min.css">
-    <link rel="stylesheet" href="assets/css/Footer-Dark-Multi-Column-icons.css">
-    <link rel="stylesheet" href="assets/css/Hero-Carousel-images.css">
-    <link rel="stylesheet" href="assets/css/Nice-breadcrumb.css">
-    <link rel="stylesheet" href="assets/css/sticky-dark-top-nav-with-dropdown.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aboreto&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Simple-Header-y-Navbar-adaptativo-nav.css">
 </head>
 
-<body style="background: #222222;">
-    <nav class="navbar navbar-expand-md navbar-fixed-top navigation-clean-button navbar-light" style="background: rgb(34, 34, 34);position: static;">
-        <div class="container">
-            <div><a class="navbar-brand" href="#"><span><img src="assets/img/Escudo%20Challapata%20Blanco.webp">G.A.M.CH.</span> </a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button></div>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="navbar-nav nav-right" style="position: relative;">
-                    <li class="nav-item"><a class="nav-link active" href="index.html" style="color: #ffffff;">Inicio</a></li>
-                    <li class="nav-item dropdown show" style="color: #ffffff;position: relative;"><a class="dropdown-toggle nav-link" aria-expanded="true" data-bs-toggle="dropdown" data-aos="fade" href="#" style="color: #ffffff;">Servicios</a>
-                        <div class="dropdown-menu show" data-bs-popper="none" style="color: #ffffff;"><a class="dropdown-item" href="services.html" style="color: #ffffff;">Price Packages</a><a class="dropdown-item" href="#" style="color: #ffffff;">Order Services</a><a class="dropdown-item" href="#" style="color: #ffffff;">Custom Request</a><a class="dropdown-item" href="#">Menu Item</a></div>
-                    </li>
-                    <li class="nav-item" style="color: #ffffff;"><a class="nav-link" href="about.html" style="color: #ffffff;">about </a></li>
-                    <li class="nav-item" style="color: #ffffff;"><a class="nav-link" href="faq.html" style="color: #ffffff;">faq </a></li>
-                    <li class="nav-item" style="color: #ffffff;"><a class="nav-link" href="contact.html" style="color: #ffffff;">contact </a></li>
-                </ul>
-                <p class="ms-auto navbar-text actions"><a class="login" href="login.html">Log In</a> <a class="btn btn-light action-button" role="button" href="signup.html">Sign Up</a></p>
-            </div>
-        </div>
-    </nav>
-    <div class="carousel slide" data-bs-ride="carousel" id="carousel-1" style="height: 600px;">
+<body style="background: #222222;"><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+  <header>
+      <img src="assets/img/Escudo%20Challapata%20Blanco.webp" width="120" height="10" style="height: 120px;" />
+    <h1>Gobierno Autónomo Municipal de Challapata</h1>
+  </header>
+  <nav>
+    <ul>
+      <a href=""><li><i class="fa fa-home"></i> INICIO</li></a>
+      <a href=""><li><i class="fa fa-info"></i> NOSOTROS</li></a>
+      <a href=""><li><i class="fa fa-inbox"></i> CONTACTO</li></a>
+        <a href=""><li><i class="fa fa-file"></i> GACETA</li></a>
+    </ul>
+    <div class="handle">
+      Menu
+    </div>
+  </nav>
+
+  <script>
+    $('.handle').on('click', function(){
+      $('nav ul').toggleClass('showing');
+    });
+  </script>
+</body>
+</html>
+    <div class="carousel slide" data-bs-ride="carousel" id="carousel-1" style="height: 580px;">
         <div class="carousel-inner h-100">
-            <div class="carousel-item active h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="assets/img/IMG_20231230_101747.webp" alt="Slide Image" style="z-index: -1;">
+            <div class="carousel-item active h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="assets/img/IMG_20231230_101747.webp" alt="Slide Image" style="z-index: -1;" width="1193" height="600">
                 <div class="container d-flex flex-column justify-content-center h-100">
                     <div class="row">
                         <div class="col-md-6 col-xl-4 offset-md-2" style="color: rgb(255,255,255);">
@@ -183,8 +196,6 @@
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/aos.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
 </body>
 
 </html>
